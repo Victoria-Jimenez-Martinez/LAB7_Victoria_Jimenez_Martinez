@@ -7,7 +7,6 @@ export const Button  = props => {
 
         const randomNumber = Math.floor(Math.random()*100) + 1;
         alert(`Valor Aleatorio: ${randomNumber}`);
-        
         setCount(randomNumber)
    }
     return (
